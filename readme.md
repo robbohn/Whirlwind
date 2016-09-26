@@ -169,18 +169,26 @@ __Version v4 from Workstation...__
 1. GIT - __it's all local__
     1. Make a repo
         - Click GITHUB icon on left
-        - click Initialize git repository
+        - click `Initialize git repository`
         - displays list of your files
     2. Commit your changes to the REPO
         - COMMIT ALL by clicking the CHECKMARK or pressing `CTRL-ENTER`    
             - __SAVING__ a file just saves it to your working directory
-            - __COMMITTING__ means to write the files to the repository; i.e., the **.git** directory
+            - __COMMITTING__ means to write the files to the repository
         - if you have previously committed, committing again will ask for a MESSAGE describing the change(s)
     3. Make more changes 
         - make some minor changes to files (like add spaces to the end of a line)
-            - notice GITHUB icon shows # files with changes
+            - notice GITHUB icon on left toolbar shows # files with changes
+            - notice the word `master` in the lower left corner 
+                - with an asterisk if un-committed changes have occurred
         - click GITHUB icon, and see list of changed files not yet committed
         - click a FILE and see the comparison of before and after the changes
+
+
+## Making a NEW version of your code
+> ????  
+
+1. XYZ....
 
 
 ## GITHUB
@@ -189,7 +197,12 @@ __Version v4 from Workstation...__
 1. GITHUB - __git in the cloud__
     - set up a free user account at github.com - [more info](https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration)  
     - ignore pricing plan (free works fine)
-    - Create a NEW repo - [more info](https://git-scm.com/book/en/v2/GitHub-Maintaining-a-Project)
+    - Create a NEW repo in GITHUB - [more info](https://git-scm.com/book/en/v2/GitHub-Maintaining-a-Project)
+    - Connect VS Code's LOCAL git REPO for your prject to the github remote repo
+        - start up integrated terminal
+        - type: `git remote add origin https://github.com/robbohn/Whirlwind.git`
+        - type: `git push -u origin master`
+
     - CLONING
     - FORKING
         -  means GitHub will make a copy of a project that is entirely yours; it lives in your user’s namespace, and you can push to it.
