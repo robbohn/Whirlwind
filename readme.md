@@ -1,6 +1,4 @@
-# A WHIRLWIND TOUR OF CURRENT WEB DEVELOPMENT  
-__Version v4 from Workstation...__
-
+# AN (OPINIONATED) WHIRLWIND TOUR OF CURRENT WEB DEVELOPMENT  
 
 ## STARTUP
 > Should tooling be separate from editing?
@@ -22,6 +20,7 @@ __Version v4 from Workstation...__
 
 ## HTML
 > HyperText Markup language - defines content and structure of web pages
+> [more info](https://en.wikipedia.org/wiki/HTML)
 
 1. create index.html
     - `CTL+SHIFT+V` switches between editing and previewing    
@@ -34,6 +33,7 @@ __Version v4 from Workstation...__
 
 ## CSS
 > Cascading Style Sheet - defines the appearance of HTML when displayed in a web page  
+> [more info](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 1. create embedded css
 2. Discuss scenarios
@@ -49,6 +49,7 @@ __Version v4 from Workstation...__
 
 ## JS
 > JavaScript (also now called ECMAscript) - adds programmability to HTML  
+> [more info](https://en.wikipedia.org/wiki/JavaScript)
 
 1. add some js to .html
 2. previewing
@@ -68,8 +69,8 @@ __Version v4 from Workstation...__
 
 ## TYPESCRIPT 
 > Modernized JavaScript  
-> [info](https://code.visualstudio.com/Docs/languages/typescript)   
-> [learn](http://tutorialzine.com/2016/07/learn-typescript-in-30-minutes/)    
+> [more info](https://code.visualstudio.com/Docs/languages/typescript)   
+> [learn more](http://tutorialzine.com/2016/07/learn-typescript-in-30-minutes/)    
 
 1. Background
     - Open Source / from Microsoft / used by Google's Angular2
