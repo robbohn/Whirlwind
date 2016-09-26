@@ -1,6 +1,7 @@
 # AN (OPINIONATED) WHIRLWIND TOUR OF CURRENT WEB DEVELOPMENT  
 
-## STARTUP
+
+## Starting Up
 > Should tooling be separate from editing?
 
 1. Discuss editors
@@ -18,8 +19,12 @@
         - choose OPEN IN CODE
 
 
-## HTML
-> HyperText Markup language - defines content and structure of web pages
+----
+## The Initial Version
+----
+
+### HTML
+> HyperText Markup language - defines content and structure of web pages  
 > [more info](https://en.wikipedia.org/wiki/HTML)
 
 1. create index.html
@@ -31,7 +36,7 @@
 4. Preview via `CTL+SHIFT+V`
 
 
-## CSS
+### CSS
 > Cascading Style Sheet - defines the appearance of HTML when displayed in a web page  
 > [more info](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
@@ -47,7 +52,11 @@
 4. Preview via `CTL+SHIFT+V`
 
 
-## JS
+----
+## Adding Logic
+----
+
+### JS
 > JavaScript (also now called ECMAscript) - adds programmability to HTML  
 > [more info](https://en.wikipedia.org/wiki/JavaScript)
 
@@ -67,7 +76,7 @@
 > JavaScript is a perfect example of the Law of Unintended Consequences
 
 
-## TYPESCRIPT 
+### TYPESCRIPT 
 > Modernized JavaScript  
 > [more info](https://code.visualstudio.com/Docs/languages/typescript)   
 > [learn more](http://tutorialzine.com/2016/07/learn-typescript-in-30-minutes/)    
@@ -87,7 +96,7 @@
     - see .js created
 
 
-## Initial Debugging
+### Initial Debugging
 > What is my program doing?
 
 1. alert
@@ -97,13 +106,12 @@
     - used when debugging to cross-reference js errors back to the .ts line numbers
 
 
-## README.MD and MarkDown
+----
+## Organizing
+----
 
-1. README.MD and MarkDown https://en.wikipedia.org/wiki/Markdown 
-    - use `CTL+SHIFT+V` to switch between editing and previewing  
-
-
-## More TYPESCRIPT
+### More TYPESCRIPT
+> Let's do classes and enums, with LINT
 
 1. Install TSLINT extension
 2. Create some classes in a separate file
@@ -116,7 +124,9 @@
     `"**/*.js": { "when": "$(basename).ts"}`
 
 
-## AUTO-TRANSPILING ([about task runner](http://code.visualstudio.com/docs/editor/tasks)) 
+### Automatically TRANSPILING
+> Let's get VS CODE to transpile for us  
+> [more info](http://code.visualstudio.com/docs/editor/tasks) 
 
 0. kill off the tsc that is running with `ctl-c`
 1. press `CTL-SHIFT-P`
@@ -129,14 +139,75 @@
     - View output of compiles by clicking VIEW/OUTPUT and then select TASKS
 > Note: VS Code cannot at this time do two tasks if one is constantly running; i.e., a watcher
 
+
+### README.md and MarkDown
+> Document your work    
+[more info](https://en.wikipedia.org/wiki/Markdown)
+
+1. Create a file named `README.md`
+2. Use MarkDown for readability  
+3. Press `CTL+SHIFT+V` to switch between editing and previewing  
+
+
+----
+## Versioning
+----
+
+### GIT
+> Local Version Control    
+> [more info](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)   
+
+1. Make a repo
+    - Click GIT icon on left
+    - click `Initialize git repository`
+    - displays list of your files
+2. Commit your changes to the REPO
+    - COMMIT ALL by clicking the CHECKMARK or pressing `CTRL-ENTER`    
+        - __SAVING__ a file just saves it to your working directory
+        - __COMMITTING__ means to write the files to the repository
+    - if you have previously committed, committing again will ask for a MESSAGE describing the change(s)
+3. Make more changes 
+    - make some minor changes to files (like add spaces to the end of a line)
+        - notice GITHUB icon on left toolbar shows # files with changes
+        - notice the word `master` in the lower left corner 
+            - with an asterisk if un-committed changes have occurred
+    - click GITHUB icon, and see list of changed files not yet committed
+    - click a FILE and see the comparison of before and after the changes
+
+
+### GITHUB
+> Distributed Version Control  
+
+1. Setup a free Account
+    - set up a free user account at github.com - [more info](https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration)  
+        - ignore pricing plan (free works fine)
+        - Create a NEW repo in GITHUB - [more info](https://git-scm.com/book/en/v2/GitHub-Maintaining-a-Project)
+        - you will need your username/password later
+2. Connect VS Code's LOCAL git REPO for your prject to the github remote repo
+    - start up integrated terminal
+    - type: `git remote add origin https://github.com/robbohn/Whirlwind.git`
+        - change `robbohn` above to your github username
+        - change `Whirlwind.git` to your github repo name
+    - type: `git push -u origin master`
+3. When changes occur, you must COMMIT them to your local REPO
+    - once you have accumulated enough changes to be a new version, you can upload them to GITHUB
+    - notice the icon(s) next to the git icon in lower left
+        - if a `refresh icon` is displayed, then local git and github are matching
+        - if it shows a `0&downarrow 1&uparrow` then there is 1 change needing to be uploaded to GITHUB
+            - click the `1&uparrow` to upload it  
+
+
+
 ---
-
 # LATER TOPICS
-
+----
 
 ## Multiple folders and OUTPUT folders
+> let's keep things organized
 
-1. Make .js output to a JS directory and a single bindled file via change to tsconfig.json  
+1. Make dirs for CSS
+2. Make dir for TS
+3. Make .js output to a JS directory and a single bundled file via change to tsconfig.json  
 
 
 ## Debugging using Chrome
@@ -161,50 +232,6 @@
     - add typings by executing `tsd install bootstrap --save`  
     - include it in app via `import bootstrap = require("bootstrap")` 
     - Make sure the file bootstrap.d.ts is included in your tsconfig.json file 
-
-
-## GIT
-> Local Version Control  
-> [info](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)   
-
-1. GIT - __it's all local__
-    1. Make a repo
-        - Click GITHUB icon on left
-        - click `Initialize git repository`
-        - displays list of your files
-    2. Commit your changes to the REPO
-        - COMMIT ALL by clicking the CHECKMARK or pressing `CTRL-ENTER`    
-            - __SAVING__ a file just saves it to your working directory
-            - __COMMITTING__ means to write the files to the repository
-        - if you have previously committed, committing again will ask for a MESSAGE describing the change(s)
-    3. Make more changes 
-        - make some minor changes to files (like add spaces to the end of a line)
-            - notice GITHUB icon on left toolbar shows # files with changes
-            - notice the word `master` in the lower left corner 
-                - with an asterisk if un-committed changes have occurred
-        - click GITHUB icon, and see list of changed files not yet committed
-        - click a FILE and see the comparison of before and after the changes
-
-
-## GITHUB
-> Distributed Version Control  
-
-1. Setup a free Account
-    - set up a free user account at github.com - [more info](https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration)  
-        - ignore pricing plan (free works fine)
-        - Create a NEW repo in GITHUB - [more info](https://git-scm.com/book/en/v2/GitHub-Maintaining-a-Project)
-2. Connect VS Code's LOCAL git REPO for your prject to the github remote repo
-    - start up integrated terminal
-    - type: `git remote add origin https://github.com/robbohn/Whirlwind.git`
-    - type: `git push -u origin master`
-3. When changes occur, you must COMMIT them to your local REPO
-    - once you have accumulated enough changes to be a new version, you can upload them to GITHUB
-    - notice the icon(s) next to the git icon in lower left
-        - if a `refresh icon` is displayed, then local git and github are matching
-        - if it shows a `0&downarrow 1&uparrow` then there is 1 change needing to be uploaded to GITHUB
-            - click the `1&uparrow` to upload it  
-
-
 ## Other GITHUB Tasks
 > get code from others, contributing back   
 
