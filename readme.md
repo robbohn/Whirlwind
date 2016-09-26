@@ -189,29 +189,35 @@
 ## GITHUB
 > Distributed Version Control  
 
-1. GITHUB - __git in the cloud__
+1. Setup a free Account
     - set up a free user account at github.com - [more info](https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration)  
-    - ignore pricing plan (free works fine)
-    - Create a NEW repo in GITHUB - [more info](https://git-scm.com/book/en/v2/GitHub-Maintaining-a-Project)
-    - Connect VS Code's LOCAL git REPO for your prject to the github remote repo
-        - start up integrated terminal
-        - type: `git remote add origin https://github.com/robbohn/Whirlwind.git`
-        - type: `git push -u origin master`
-    - When changes occur, you must COMMIT them to your local REPO
+        - ignore pricing plan (free works fine)
+        - Create a NEW repo in GITHUB - [more info](https://git-scm.com/book/en/v2/GitHub-Maintaining-a-Project)
+2. Connect VS Code's LOCAL git REPO for your prject to the github remote repo
+    - start up integrated terminal
+    - type: `git remote add origin https://github.com/robbohn/Whirlwind.git`
+    - type: `git push -u origin master`
+3. When changes occur, you must COMMIT them to your local REPO
     - once you have accumulated enough changes to be a new version, you can upload them to GITHUB
-        - notice the icon(s) next to the git icon in lower left
-            - if a refrsh button local and github matching
-            - if it shows 
-    - CLONING
-    - FORKING
-        -  means GitHub will make a copy of a project that is entirely yours; it lives in your user’s namespace, and you can push to it.
-    - Contributing to a GitHub project, aka `The GitHub flow`    
-        - Create a topic branch from master.
-        - Make some commits to improve the project.
-        - Push this branch to your GitHub project.
-        - Open a Pull Request on GitHub.
-        - Discuss, and optionally continue committing.
-        - The project owner merges or closes the Pull Request.
+    - notice the icon(s) next to the git icon in lower left
+        - if a `refresh icon` is displayed, then local git and github are matching
+        - if it shows a `0&downarrow 1&uparrow` then there is 1 change needing to be uploaded to GITHUB
+            - click the `1&uparrow` to upload it  
+
+
+## Other GITHUB Tasks
+> get code from others, contributing back   
+
+1. CLONING
+2. FORKING
+    -  means GitHub will make a copy of a project that is entirely yours; it lives in your user’s namespace, and you can push to it.
+3. Contributing to a GitHub project, aka `The GitHub flow`    
+    - Create a topic branch from master.
+    - Make some commits to improve the project.
+    - Push this branch to your GitHub project.
+    - Open a Pull Request on GitHub.
+    - Discuss, and optionally continue committing.
+    - The project owner merges or closes the Pull Request.
 
 
 ## Making a NEW version of your code
