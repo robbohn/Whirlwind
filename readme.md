@@ -1,5 +1,6 @@
 # A WHIRLWIND TOUR OF CURRENT WEB DEVELOPMENT  
-__Version v3 from Workstation...__
+__Version v4 from Workstation...__
+
 
 ## STARTUP
 > Should tooling be separate from editing?
@@ -18,7 +19,10 @@ __Version v3 from Workstation...__
         - right-click
         - choose OPEN IN CODE
 
+
 ## HTML
+> HyperText Markup language - defines content and structure of web pages
+
 1. create index.html
     - `CTL+SHIFT+V` switches between editing and previewing    
     - or use `Ctrl+K V` to show LIVE preview in a side window
@@ -27,7 +31,10 @@ __Version v3 from Workstation...__
     - `Shift+Alt+F` pretty formats the html file or highlighted section
 4. Preview via `CTL+SHIFT+V`
 
+
 ## CSS
+> Cascading Style Sheet - defines the appearance of HTML when displayed in a web page  
+
 1. create embedded css
 2. Discuss scenarios
     - Tags _such as h2 and a_ 
@@ -39,7 +46,10 @@ __Version v3 from Workstation...__
     - `Shift+Alt+F` does not seem to format CSS file?
 4. Preview via `CTL+SHIFT+V`
 
+
 ## JS
+> JavaScript (also now called ECMAscript) - adds programmability to HTML  
+
 1. add some js to .html
 2. previewing
     - Executable code does not run in `CTL+SHIFT+V` previewer
@@ -55,11 +65,16 @@ __Version v3 from Workstation...__
       i.e., fights errors from coercing when using double-equals versis triple-equals
 > JavaScript is a perfect example of the Law of Unintended Consequences
 
-## TYPESCRIPT ([info](https://code.visualstudio.com/Docs/languages/typescript) and [learn](http://tutorialzine.com/2016/07/learn-typescript-in-30-minutes/)) 
+
+## TYPESCRIPT 
+> Modernized JavaScript  
+> [info](https://code.visualstudio.com/Docs/languages/typescript)   
+> [learn](http://tutorialzine.com/2016/07/learn-typescript-in-30-minutes/)    
+
 1. Background
     - Open Source / from Microsoft / used by Google's Angular2
     - 2 million downloads August 2016 
-    - TS 2.0 released Sept 22nd 2016 ([news](https://blogs.msdn.microsoft.com/typescript/2016/09/22/announcing-typescript-2-0/))   
+    - TS 2.0 released Sept 22nd 2016 ([news](https://blogs.msdn.microsoft.com/typescript/2016/09/22/announcing-typescript-2-0/))     
     - aligns closely to ECMAScript spec alignment 
 1. rename the .js to .ts
 1. Discuss use of :string and other datatypes stuff
@@ -70,18 +85,25 @@ __Version v3 from Workstation...__
     - instead run: `tsc -w`
     - see .js created
 
+
 ## Initial Debugging
+> What is my program doing?
+
 1. alert
 2. `F12` in Edge vs Chrome etc.
 3. console.log
 4. create tsconfig.json for creating the .map file(s) 
     - used when debugging to cross-reference js errors back to the .ts line numbers
 
+
 ## README.MD and MarkDown
+
 1. README.MD and MarkDown https://en.wikipedia.org/wiki/Markdown 
     - use `CTL+SHIFT+V` to switch between editing and previewing  
 
+
 ## More TYPESCRIPT
+
 1. Install TSLINT extension
 2. Create some classes in a separate file
     - person.ts
@@ -92,7 +114,9 @@ __Version v3 from Workstation...__
 > DOES THIS WORK???? File > Preferences > Workspace Settings and add the line below to hide the .JS file if there is a matching .TS file
     `"**/*.js": { "when": "$(basename).ts"}`
 
+
 ## AUTO-TRANSPILING ([about task runner](http://code.visualstudio.com/docs/editor/tasks)) 
+
 0. kill off the tsc that is running with `ctl-c`
 1. press `CTL-SHIFT-P`
 2. type the first few letters of and then select: `Configure Task Runner`
@@ -108,19 +132,27 @@ __Version v3 from Workstation...__
 
 # LATER TOPICS
 
+
 ## Multiple folders and OUTPUT folders
+
 1. Make .js output to a JS directory and a single bindled file via change to tsconfig.json  
 
+
 ## Debugging using Chrome
+
 1. load chrome
 1. Load debugging with chrome extension
 
+
 ## Advanced TS
+
 1. Fn Overloading? 
 1. Interfaces? 
 1. MODULES & nameSpaces? Modules have a dependency on a module loader (such as CommonJs/Require.js). https://github.com/Microsoft/TypeScript-Handbook/blob/master/pages/Namespaces%20and%20Modules.md 
 
+
 ## Pretty CSS
+
 1. BOOTSTRAP or equiv
 1. TypeScript .d.ts for js-based bootstrap/jquery/etc.
 1. Maybe do these lines below AFTER NPM discussion
@@ -129,20 +161,50 @@ __Version v3 from Workstation...__
     - include it in app via `import bootstrap = require("bootstrap")` 
     - Make sure the file bootstrap.d.ts is included in your tsconfig.json file 
 
+
+## GIT
+> Local Version Control  
+> [info](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)   
+
+1. GIT - __it's all local__
+    1. Make a repo
+        - Click GITHUB icon on left
+        - click Initialize git repository
+        - displays list of your files
+    2. Commit your changes to the REPO
+        - COMMIT ALL by clicking the CHECKMARK or pressing `CTRL-ENTER`    
+            - __SAVING__ a file just saves it to your working directory
+            - __COMMITTING__ means to write the files to the repository; i.e., the **.git** directory
+        - if you have previously committed, committing again will ask for a MESSAGE describing the change(s)
+    3. Make more changes 
+        - make some minor changes to files (like add spaces to the end of a line)
+            - notice GITHUB icon shows # files with changes
+        - click GITHUB icon, and see list of changed files not yet committed
+        - click a FILE and see the comparison of before and after the changes
+
+
 ## GITHUB
-> Go here for [info](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)  
-1. public repository vs private
-1. Make a repo
-    - Click GITHUB icon on left
-    - click Initialize git repository
-    - displays list of your files
-    - Click the CHECKMARK or press `CTRL-ENTER` to commit ALL 
-    - COMMIT means to write the files to the repository (.git directory)
-    - Saving a file just saves it to your working directory
-    - Commiting a file saves it to the repository
-    - if you have previously committed, committing again will ask for a MESSAGE describing the change(s)
+> Distributed Version Control  
+
+1. GITHUB - __git in the cloud__
+    - set up a free user account at github.com - [more info](https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration)  
+    - ignore pricing plan (free works fine)
+    - Create a NEW repo - [more info](https://git-scm.com/book/en/v2/GitHub-Maintaining-a-Project)
+    - CLONING
+    - FORKING
+        -  means GitHub will make a copy of a project that is entirely yours; it lives in your user’s namespace, and you can push to it.
+    - Contributing to a GitHub project, aka `The GitHub flow`    
+        - Create a topic branch from master.
+        - Make some commits to improve the project.
+        - Push this branch to your GitHub project.
+        - Open a Pull Request on GitHub.
+        - Discuss, and optionally continue committing.
+        - The project owner merges or closes the Pull Request.
+
+
 
 ## NPM and then other tools (ties in with webpack below)
+
 1. Install NODEJS so npm will be installed
 1. Install/discuss other tools? gulp/grunt/babel/webpack
     - WebPack and minify and bundling
@@ -151,9 +213,13 @@ __Version v3 from Workstation...__
         - global: `npm install webpack -g`  
         - Usage [info](https://webpack.github.io/docs/tutorials/getting-started/)
 
+
 ## The over-abundance of tools
+
 1. [Javascript & tooling fatigue](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4) 
 
+
 ## Typings and tsd
+
 1. Declaration files (.d.ts files) are a fundamental part of using existing JavaScript libraries in TypeScript but TS2 changes this
 1. package.json
