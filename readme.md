@@ -1,4 +1,4 @@
-# An (opinionated) Whirlwind Tour of Current Web Development (V0.1.1)
+# An (opinionated) Whirlwind Tour of Current Web Development (V0.1.2)
 
 
 ## Starting Up
@@ -6,8 +6,10 @@
 
 1. Discuss editors
     - SubLime and Atom and Visual Studio Code and NotePad 
-    - versus big IDEs like Visual Studio
+    - versus bigger IDEs like Visual Studio and WebStorm
+
 2. Install VS Code ([link](http://code.visualstudio.com/))
+
 3. Create folder and startup VS Code via one of the following:
     - **In Windows Explorer**
         - create a new folder   
@@ -21,8 +23,16 @@
 ```   
 
 
+# [LESSON 1 - The Initial Version](https://github.com/robbohn/Whirlwind/blob/master/LESSON1/README.md)
+
+# [LESSON 2 - Adding Logic](https://github.com/robbohn/Whirlwind/blob/master/LESSON2/README.md)
+
+# [LESSON 3 - Organizing Your Work](https://github.com/robbohn/Whirlwind/blob/master/LESSON3/README.md)
+
+
+
 ----
-## The Initial Version
+## LESSON 1: The Initial Version
 ----
 
 ### HTML
@@ -147,7 +157,7 @@ p {
 
 
 ----
-## Adding Logic
+## LESSON 2: Adding Logic
 ----
 
 ### JS
@@ -185,7 +195,7 @@ p {
 1. discuss other ts goodies
 2. `Shift+Alt+F` pretty formats the entire ts file or highlighted section
 3. Compile
-    - Use integrated terminal to run the transpile (compile) command: `tsc`    
+    - Use integrated terminal to run the transpile (compile) command: `tsc`     
     - instead run: `tsc -w`
     - see .js created
 
@@ -201,7 +211,7 @@ p {
 
 
 ----
-## Organizing
+## LESSON 3: Organizing your work
 ----  
 
 ### More TYPESCRIPT
@@ -244,7 +254,7 @@ p {
 
 
 ----
-## Versioning
+## LESSON 4: Versioning
 ----
 
 ### GIT
@@ -263,8 +273,8 @@ p {
 3. Make more changes 
     - make some minor changes to files (like add spaces to the end of a line)
         - notice GITHUB icon on left toolbar shows # files with changes
-        - notice the word `master` in the lower left corner 
-            - with an asterisk if un-committed changes have occurred
+        - notice the word `master` in the lower left corner     
+            - with an asterisk if un-committed changes have occurred    
     - click GITHUB icon, and see list of changed files not yet committed
     - click a FILE and see the comparison of before and after the changes
 
@@ -319,18 +329,19 @@ p {
 
 ## Pretty CSS
 
-1. BOOTSTRAP ([download](http://getbootstrap.com/)) or similar  
+1. BOOTSTRAP ([download](http://getbootstrap.com/)) or similar     
+1. CDNs
 1. TypeScript .d.ts for js-based bootstrap/jquery/etc.
 1. Maybe do these lines below AFTER NPM discussion
-    - `npm install bootstrap --save`   
-    - add typings by executing `tsd install bootstrap --save`  
+    - `npm install bootstrap --save`    
+    - add typings by executing `tsd install bootstrap --save`   
     - include it in app via `import bootstrap = require("bootstrap")` 
     - Make sure the file bootstrap.d.ts is included in your tsconfig.json file 
+
 ## Other GITHUB Tasks
 > get code from others, contributing back   
 
-1. CLONING
-2. FORKING
+1. FORKING
     -  means GitHub will make a copy of a project that is entirely yours; it lives in your user’s namespace, and you can push to it.
 3. Contributing to a GitHub project, aka `The GitHub flow`    
     - Create a topic branch from master.
@@ -348,15 +359,16 @@ p {
 
 
 
-## NPM and then other tools (ties in with webpack below)
+## NODE and then other tools (ties in with webpack below)
 
-1. Install NODEJS so npm will be installed
+1. Discuss minify and bundling etc.
+1. Install NODEJS so NPM will be installed
 1. Install/discuss other tools? gulp/grunt/babel/webpack
-    - WebPack and minify and bundling
-        - WebPack Installation [info](https://github.com/webpack/webpack)  
-        - project: `npm install webpack --save-dev`
-        - global: `npm install webpack -g`  
-        - Usage [info](https://webpack.github.io/docs/tutorials/getting-started/)
+    - WebPack
+        - WebPack Installation [info](https://github.com/webpack/webpack)      
+        - project: `npm install webpack --save-dev`    
+        - global: `npm install webpack -g`      
+        - Usage [info](https://webpack.github.io/docs/tutorials/getting-started/)    
 
 
 ## The over-abundance of tools
