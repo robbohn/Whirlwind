@@ -45,13 +45,13 @@
         - if it shows a `0&downarrow 1&uparrow` then there is 1 change needing to be uploaded to GITHUB
             - click the `1&uparrow` to upload it  
 4. Basic Flow
-    - SAVE; Make changes in VS CODE, hit save
+    - SAVE: Make changes in VS CODE, hit save ./ lather rinse repeat
     - COMMIT: After a group of changes, you want to get it into your local repository (COMMIT)
         - Click Git icon
         - give it a mesage (such as Version # or Change Note)
         - click Check Mark icon (Commit All)
         - this gets it stored into the repository so you can now revert changes
-    - Now need to get it up to your GitHub repository
+    - SYNCHRONIZE: Now we need to get it up to your GitHub repository
         - Click the lower-left 0up and 1down icons to send the changes in the local repository up to GitHub
 
 
