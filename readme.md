@@ -1,4 +1,4 @@
-# AN (OPINIONATED) WHIRLWIND TOUR OF CURRENT WEB DEVELOPMENT  
+# An (opinionated) Whirlwind Tour of Current Web Development (V0.1.1)
 
 
 ## Starting Up
@@ -9,14 +9,16 @@
     - versus big IDEs like Visual Studio
 2. Install VS Code ([link](http://code.visualstudio.com/))
 3. Create folder and startup VS Code via one of the following:
-    - **In command shell/DOS:**  
-    `mkdir newdirname`  
-    `cd newdirname`  
-    `code .`  
     - **In Windows Explorer**
-        - create a new folder
-        - right-click
-        - choose OPEN IN CODE
+        - create a new folder   
+        - right-click   
+        - choose OPEN IN CODE   
+    - **In command shell/DOS:**  
+```DOS
+    mkdir newdirname     
+    cd newdirname    
+    code .
+```   
 
 
 ----
@@ -103,6 +105,7 @@
 </body>
 </html>
 ```   
+
 2. Discuss scenarios
     - Tags _such as h2 and a_ 
     - IDs via #
@@ -110,7 +113,7 @@
     - pseudoclasses _such as a:hover or #id:visited_
 3. Discuss CSS3 ([info](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3))
 4. Let's create a separate file for CSS
-    - copy the text between `<STYLE>` and `</STYLE>`
+    - copy the text between `<STYLE>` and `</STYLE>`  
     - create main.css file and copy that text into it
 ```CSS
 body
@@ -134,10 +137,11 @@ p {
     background-color: red;
 }
 ```     
-    - change the HTML file's style code in `<head>` to be:
+    - change the HTML file's style code in `<head>` to be:   
 ```html
     <link rel="stylesheet" href="./main.css">
-```    
+```
+
     - `Shift+Alt+F` does not seem to format CSS file?
 4. Preview via `CTL+SHIFT+V`
 
@@ -198,7 +202,7 @@ p {
 
 ----
 ## Organizing
-----
+----  
 
 ### More TYPESCRIPT
 > Let's do classes and enums, with LINT
@@ -290,7 +294,7 @@ p {
 
 ---
 # LATER TOPICS
-----
+
 
 ## Multiple folders and OUTPUT folders
 > let's keep things organized
@@ -315,7 +319,7 @@ p {
 
 ## Pretty CSS
 
-1. BOOTSTRAP or equiv
+1. BOOTSTRAP ([download](http://getbootstrap.com/)) or similar  
 1. TypeScript .d.ts for js-based bootstrap/jquery/etc.
 1. Maybe do these lines below AFTER NPM discussion
     - `npm install bootstrap --save`   
