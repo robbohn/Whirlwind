@@ -1,4 +1,4 @@
-# An (opinionated) Whirlwind Tour of Current Web Development (V0.1.5)
+# An (opinionated) Whirlwind Tour of Current Web Development (V0.1.6)
 
 > Where we work through the modern way to develop modern web applications  
 
@@ -11,6 +11,8 @@
 ## [LESSON 3 - Organizing Your Work](https://github.com/robbohn/Whirlwind/blob/master/LESSON03/README.md)
 
 ## [LESSON 4 - Versioning](https://github.com/robbohn/Whirlwind/blob/master/LESSON04/README.md)
+
+## [LESSON 5 - Make it more attractive](https://github.com/robbohn/Whirlwind/blob/master/LESSON05/README.md)
 
 
 (Stored at <https://github.com/robbohn/Whirlwind>)
@@ -40,20 +42,6 @@
 1. Fn Overloading? 
 1. Interfaces? 
 1. MODULES & nameSpaces? Modules have a dependency on a module loader (such as CommonJs/Require.js). https://github.com/Microsoft/TypeScript-Handbook/blob/master/pages/Namespaces%20and%20Modules.md 
-
-
-## Pretty CSS
-
-1. BOOTSTRAP ([download](http://getbootstrap.com/)) or similar     
-2. Pros & Cons of CDNs such as [BootstrapCDN](https://www.bootstrapcdn.com/)
-    - Bootstrap CSS CDN is at <https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css>         
-    - Bootstrap JS CDN is at <https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js>         
-> PRO - simultaneous download with your HTML and JS    
-> PRO - faster than your website    
-> CON - what if the CDN is not working?    
-
-3. Themes for BOOTSTRAP at <https://bootswatch.com/>    
-    - CDN available as well at <https://www.bootstrapcdn.com/bootswatch/>
 
 
 ## Topics for CSS that use JS
