@@ -1,5 +1,7 @@
 # An (opinionated) Whirlwind Tour of Current Web Development (V0.1.3)
 
+(Stored at <https://github.com/robbohn/Whirlwind>)
+
 
 ## Starting Up
 
