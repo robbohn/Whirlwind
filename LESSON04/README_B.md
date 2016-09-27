@@ -34,7 +34,7 @@
     - Click the lower-left 0up and 1down icons to send the changes in the local repository up to GitHub
 
 
-## Making changes ON GitHub
+# Making changes ON GitHub
 > Sometimes you just gotta edit via the web
 
 1. Select the file, then click the pencil (EDIT) icon
