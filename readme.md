@@ -1,5 +1,7 @@
 # An (opinionated) Whirlwind Tour of Current Web Development (V0.1.5)
 
+> Where we work through the modern way to develop modern web applications  
+
 ## [LESSON 0 - Starting Up](https://github.com/robbohn/Whirlwind/blob/master/LESSON00/README.md)
 
 ## [LESSON 1 - The Initial Version](https://github.com/robbohn/Whirlwind/blob/master/LESSON01/README.md)
