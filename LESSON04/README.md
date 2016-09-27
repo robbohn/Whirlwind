@@ -1,6 +1,6 @@
-# LESSON 4: Versioning and Storing our work safely
+# LESSON 4: Versioning & storing our work safely
 
-> Where we track our changes
+> Where we track our changes and make us able to revert back when we screw up
 
 ## GIT
 > Local Version Control    
