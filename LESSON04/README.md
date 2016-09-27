@@ -1,4 +1,4 @@
-# LESSON 4: Versioning
+# LESSON 4: Versioning and Storing our work safely
 
 > Where we track our changes
 
