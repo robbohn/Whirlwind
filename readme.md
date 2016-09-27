@@ -10,9 +10,9 @@
 
 ## [LESSON 3 - Organizing Your Work](https://github.com/robbohn/Whirlwind/blob/master/LESSON03/README.md)
 
-## [LESSON 4a - Versioning](https://github.com/robbohn/Whirlwind/blob/master/LESSON04/README.md)
+## [LESSON 4A - Versioning](https://github.com/robbohn/Whirlwind/blob/master/LESSON04/README.md)
 
-## [LESSON 4b - Versioning in the cloud](https://github.com/robbohn/Whirlwind/blob/master/LESSON04/README_B.md)
+## [LESSON 4B - Versioning in the cloud](https://github.com/robbohn/Whirlwind/blob/master/LESSON04/README_B.md)
 
 ## __Interlude:__ The over-abundance of tools - [Javascript & tooling fatigue](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4) 
 

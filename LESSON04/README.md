@@ -1,4 +1,4 @@
-# LESSON 4: Versioning & storing our work safely
+# LESSON 4A: Versioning & storing our work safely
 
 > Where we track our changes and enable us to revert back when we screw up
 
