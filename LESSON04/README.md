@@ -45,7 +45,7 @@
         - if it shows a `0&downarrow 1&uparrow` then there is 1 change needing to be uploaded to GITHUB
             - click the `1&uparrow` to upload it  
 4. Basic Flow
-    - SAVE: Make changes in VS CODE, hit save ./ lather rinse repeat
+    - SAVE: Make changes in VS CODE, hit save / lather rinse repeat
     - COMMIT: After a group of changes, you want to get it into your local repository (COMMIT)
         - Click Git icon
         - give it a mesage (such as Version # or Change Note)
