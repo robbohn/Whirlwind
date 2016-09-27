@@ -1,6 +1,6 @@
 # LESSON 4: Versioning & storing our work safely
 
-> Where we track our changes and make us able to revert back when we screw up
+> Where we track our changes and enable us to revert back when we screw up
 
 ## GIT
 > Local Version Control    
@@ -44,5 +44,24 @@
         - if a `refresh icon` is displayed, then local git and github are matching
         - if it shows a `0&downarrow 1&uparrow` then there is 1 change needing to be uploaded to GITHUB
             - click the `1&uparrow` to upload it  
+4. Basic Flow
+    - SAVE; Make changes in VS CODE, hit save
+    - COMMIT: After a group of changes, you want to get it into your local repository (COMMIT)
+        - Click Git icon
+        - give it a mesage (such as Version # or Change Note)
+        - click Check Mark icon (Commit All)
+        - this gets it stored into the repository so you can now revert changes
+    - Now need to get it up to your GitHub repository
+        - Click the lower-left 0up and 1down icons to send the changes in the local repository up to GitHub
+
+
+## Making changes ON GitHub
+> Sometimes you just gotta edit via the web
+
+1. Select the file, then click the pencil (EDIT) icon
+2. Make comment about change
+3. save
+4. VS Code will eventually show an update can be downloaded via the 1down & 0up icons in lower left
+
 
 
