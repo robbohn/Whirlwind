@@ -1,12 +1,23 @@
-# An (opinionated) Whirlwind Tour of Current Web Development (V0.1.2)
+# An (opinionated) Whirlwind Tour of Current Web Development (V0.1.3)
 
 
 ## Starting Up
-> Should tooling be separate from editing?
 
-1. Discuss editors
-    - SubLime and Atom and Visual Studio Code and NotePad 
-    - versus bigger IDEs like Visual Studio and WebStorm
+1. What we need:
+    - Text Editor - to create and modify text files
+    - Command Line - to execute commands
+    - Browser - to check our results 
+    - Internet Access (for downloading tools and later lessons)
+
+2. What we don't need
+    - Web Server
+    - other stuff (server, database, etc.)
+
+> Discussion: Should tooling be separate from editing?
+
+2. Discuss editors
+    - SubLime and Atom and Visual Studio Code and NotePad++ 
+    - versus bigger IDEs like Visual Studio, WebStorm, et al
 
 2. Install VS Code ([link](http://code.visualstudio.com/))
 
@@ -15,6 +26,7 @@
         - create a new folder   
         - right-click   
         - choose OPEN IN CODE   
+            
     - **In command shell/DOS:**  
 ```DOS
     mkdir newdirname     
@@ -23,11 +35,11 @@
 ```   
 
 
-# [LESSON 1 - The Initial Version](https://github.com/robbohn/Whirlwind/blob/master/LESSON1/README.md)
+## [LESSON 1 - The Initial Version](https://github.com/robbohn/Whirlwind/blob/master/LESSON1/README.md)
 
-# [LESSON 2 - Adding Logic](https://github.com/robbohn/Whirlwind/blob/master/LESSON2/README.md)
+## [LESSON 2 - Adding Logic](https://github.com/robbohn/Whirlwind/blob/master/LESSON2/README.md)
 
-# [LESSON 3 - Organizing Your Work](https://github.com/robbohn/Whirlwind/blob/master/LESSON3/README.md)
+## [LESSON 3 - Organizing Your Work](https://github.com/robbohn/Whirlwind/blob/master/LESSON3/README.md)
 
 
 
@@ -117,10 +129,10 @@
 ```   
 
 2. Discuss scenarios
-    - Tags _such as h2 and a_ 
-    - IDs via #
-    - Classes via .
-    - pseudoclasses _such as a:hover or #id:visited_
+    - Tags _such as h2 and a_     
+    - IDs via _#_    
+    - Classes via _._    
+    - pseudoclasses _such as a:hover or #id:visited_    
 3. Discuss CSS3 ([info](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3))
 4. Let's create a separate file for CSS
     - copy the text between `<STYLE>` and `</STYLE>`  
@@ -330,7 +342,19 @@ p {
 ## Pretty CSS
 
 1. BOOTSTRAP ([download](http://getbootstrap.com/)) or similar     
-1. CDNs
+2. Pros & Cons of CDNs such as [BootstrapCDN](https://www.bootstrapcdn.com/)
+    - Bootstrap CSS CDN is at <https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css>         
+    - Bootstrap JS CDN is at <https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js>         
+> PRO - simultaneous download with your HTML and JS    
+> PRO - faster than your website    
+> CON - what if the CDN is not working?    
+
+3. Themes for BOOTSTRAP at <https://bootswatch.com/>    
+    - CDN available as well at <https://www.bootstrapcdn.com/bootswatch/>
+
+
+## Topics for CSS that use JS
+
 1. TypeScript .d.ts for js-based bootstrap/jquery/etc.
 1. Maybe do these lines below AFTER NPM discussion
     - `npm install bootstrap --save`    
