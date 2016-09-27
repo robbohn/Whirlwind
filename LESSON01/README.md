@@ -1,5 +1,7 @@
 # LESSON 1: The Initial Version
 
+> Where we create our first webpage
+
 ## HTML
 > HyperText Markup language - defines content and structure of web pages  
 > [more info](https://en.wikipedia.org/wiki/HTML)
