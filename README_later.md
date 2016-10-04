@@ -14,7 +14,7 @@
 
 1. load chrome
 1. Load debugging with chrome extension
-
+1. REPL = Read-Eval-Print-Loop 
 
 ## Advanced TS
 
