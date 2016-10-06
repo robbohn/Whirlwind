@@ -1,6 +1,8 @@
-# An (opinionated) Whirlwind Tour of Current Web Development (V0.1.11)
+# An (opinionated) Whirlwind Tour of Current Web Development (V0.1.11a)
 
 > Where we work through the modern way to develop modern web applications  
+
+BIG CHANGE (MAYBE MAKE THIS BE A NODE APP TO BEGIN WITH SO IT CAN BE DEBUGGED)
 
 ## [LESSON 0 - Starting Up](https://github.com/robbohn/Whirlwind/blob/master/LESSON00/README.md)
 
