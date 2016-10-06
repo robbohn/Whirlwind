@@ -6,6 +6,8 @@
 > Local Version Control    
 > [more info](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)   
 
+> Brackets and GIT <http://rickluna.com/wp/2016/03/brackets-git-integration/>
+
 1. Make a repo
     - Click GIT icon on left
     - click `Initialize git repository`

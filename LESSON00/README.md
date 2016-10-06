@@ -24,19 +24,22 @@
 2. Big "Development Environments": Visual Studio, WebStorm, et al
 
 
-## Install VS Code    
+## Install VS Code -or- ???Brackets???
 
-    - ([link](http://code.visualstudio.com/))
+> Brackets may have issues with typescript <http://stackoverflow.com/questions/24507965/how-to-write-typescript-and-coffeescript-in-brackets>
+
+1. ([Download VS Code](http://code.visualstudio.com/))
+1. ([Download Brackets](????))
 
 
 ## Create folder and startup VS Code via one of the following:
 
-    1. **In Windows Explorer**
-        - create a new folder   
-        - right-click   
-        - choose OPEN IN CODE   
+1. **In Windows Explorer**
+    - create a new folder   
+    - right-click   
+    - choose OPEN IN CODE   
             
-    2. **In command shell/DOS:**  
+2. **In command shell/DOS:**  
 ```DOS
     mkdir newdirname     
     cd newdirname    
