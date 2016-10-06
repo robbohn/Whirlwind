@@ -1,5 +1,7 @@
 # LESSON 4B: GITHUB
 > Distributed Version Control  
+> GOGS as a self-hosted alternative <https://gogs.io/>
+
 
 # Setup a free Account
 1. Set up a free user account at github.com - [more info](https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration)  

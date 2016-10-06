@@ -35,6 +35,10 @@
 ## Other GITHUB Tasks
 > get code from others, contributing back   
 
+1. CLONING
+    - means
+1. PULL Request
+    - means
 1. FORKING
     -  means GitHub will make a copy of a project that is entirely yours; it lives in your user’s namespace, and you can push to it.
 3. Contributing to a GitHub project, aka `The GitHub flow`    

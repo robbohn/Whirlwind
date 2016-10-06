@@ -20,13 +20,16 @@
 
 ## Discuss editors    
 
-1. Simpler Editors: SubLime and Atom and Visual Studio Code and NotePad++ 
+1. Simpler Editors: Notepad, SubLime/Atom/Brackets/Visual Studio Code/etc. 
 2. Big "Development Environments": Visual Studio, WebStorm, et al
 
 
 ## Install VS Code -or- ???Brackets???
 
+> VSC vs Brackets <https://www.slant.co/versus/52/5982/~brackets_vs_visual-studio-code>
 > Brackets may have issues with typescript <http://stackoverflow.com/questions/24507965/how-to-write-typescript-and-coffeescript-in-brackets>
+
+> VS Code and NODE and TypeScript/typings <https://code.visualstudio.com/docs/runtimes/nodejs>
 
 1. ([Download VS Code](http://code.visualstudio.com/))
 1. ([Download Brackets](????))
