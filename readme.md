@@ -1,4 +1,4 @@
-# An (opinionated) Whirlwind Tour of Current Web Development (V0.1.14)
+# An (opinionated) Whirlwind Tour of Current Web Development (V0.1.14a)
 
 > Where we work through the modern way to develop a basic web application  
 
@@ -17,6 +17,8 @@
 ## [LESSON 4A - Versioning](https://github.com/robbohn/Whirlwind/blob/master/LESSON04/README_A.md)
 
 ## [LESSON 4B - Versioning in the cloud](https://github.com/robbohn/Whirlwind/blob/master/LESSON04/README_B.md)
+
+--------------------
 
 ## later - [LESSON 5 - Make it more attractive](https://github.com/robbohn/Whirlwind/blob/master/LESSON05/README.md)
 
