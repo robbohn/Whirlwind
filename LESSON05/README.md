@@ -2,7 +2,7 @@
 
 > Where we improve the looks (and make it mobile-responsive) by using an HTML/CSS/JS framework 
 
-## Frameworks
+## CSS Frameworks
 
 1. BOOTSTRAP or similar
     - ([download](http://getbootstrap.com/)) 
