@@ -15,10 +15,11 @@
 3. `Shift+Alt+F` does formattting
 4. refresh browser
 5. Discuss older ES5 is broadly supported ([wikipedia](https://en.wikipedia.org/wiki/ECMAScript))
-    - But current standard is ECMAscript2015 (ES6) and ECMAscript2016 (ES7) but not fully supported by browsers
-    - What would be nice is something more like ES7 or C#, designed more for large projects, 
+    - But current standard is ECMAscript2015 (ES6) and ECMAscript2016 (ES7) 
+        - but not fully supported by browsers
+    - What would be nice is something more like ES7 or even better like C#, designed more for large projects, 
       with strong and strict typing, that compiles down to POJ (Plain Old Javascript) that all browsers can run
-      i.e., fights errors from coercing when using double-equals versis triple-equals
+      i.e., fights errors from coercing when using double-equals versis triple-equals    
 > JavaScript is a perfect example of the Law of Unintended Consequences
 
 
