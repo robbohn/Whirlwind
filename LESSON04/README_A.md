@@ -1,9 +1,7 @@
 # LESSON 4A: Versioning & storing our work safely
-
 > Where we track our changes and enable us to revert back when we screw up
 
-## GIT
-> Local Version Control    
+## GIT - Local Version Control    
 > [more info](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)   
 
 > Brackets and GIT <http://rickluna.com/wp/2016/03/brackets-git-integration/>

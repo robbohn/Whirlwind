@@ -1,5 +1,4 @@
 # LESSON 3: Organizing your work
-
 > Where we make things more neat and tidy
 
 ## More TYPESCRIPT
@@ -12,9 +11,6 @@
         - direction enum
         - person class with move method
         - employee class extending person
-> DOES THIS WORK???? File > Preferences > Workspace Settings and add the line below to hide the .JS file if there is a matching .TS file
-    `"**/*.js": { "when": "$(basename).ts"}`
-
 
 ## Automatically TRANSPILING
 > Let's get VS CODE to transpile for us  

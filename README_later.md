@@ -62,3 +62,7 @@
 
 1. Declaration files (.d.ts files) are a fundamental part of using existing JavaScript libraries in TypeScript but TS2 changes this
 1. package.json
+
+
+> DOES THIS WORK???? File > Preferences > Workspace Settings and add the line below to hide the .JS file if there is a matching .TS file
+    `"**/*.js": { "when": "$(basename).ts"}`

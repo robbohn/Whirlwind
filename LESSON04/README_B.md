@@ -2,14 +2,13 @@
 > Distributed Version Control  
 > GOGS as a self-hosted alternative <https://gogs.io/>
 
-
-# Setup a free Account
+## Setup a free Account
 1. Set up a free user account at github.com - [more info](https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration)  
     - ignore pricing plan (free works fine)
     - Create a NEW repo in GITHUB - [more info](https://git-scm.com/book/en/v2/GitHub-Maintaining-a-Project)
 2. You will need your username/password later
 
-# Connect VS Code's LOCAL git REPO for your prject to the github remote repo
+## Connect VS Code's LOCAL git REPO for your project to the github remote repo
 1. start up integrated terminal
     - type: `git remote add origin https://github.com/robbohn/Whirlwind.git`
 
@@ -18,7 +17,7 @@
 
     - type: `git push -u origin master`
 
-# When changes occur, COMMIT them to your local REPO
+## When changes occur, COMMIT them to your local REPO
 1. Once you have accumulated enough changes to be a new version, you can upload them to GITHUB
 2. Notice the icon(s) next to the git icon in lower left
     - if a `refresh icon` is displayed, then local git and github are matching
