@@ -1,4 +1,4 @@
-# LESSON 4B: GITHUB
+# LESSON 4B: GITHUB   
 > Distributed Version Control  
 > GOGS as a self-hosted alternative <https://gogs.io/>
 
@@ -48,10 +48,9 @@
 # Making GitHub be your Webserver
 > All The Webs Belong To Us
 
-1. Go To GFITHUB'S Settings / Options / Github pages
+1. Go To GITHUB'S Settings / Options / Github pages
 2. At Source, flip it from NONE to master branch
 3. SAVE 
     - your website will be available at <https://YourUserName.github.io/YourRepoName/>    
     - mine is at <https://robbohn.github.io/Whirlwind/>
     - note the cool automatic page generator capability - sample at <https://robbohn.github.io/tempest/>    
-    
