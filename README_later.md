@@ -34,6 +34,7 @@
 
 ## Other GITHUB Tasks
 > get code from others, contributing back   
+> Clone, Merge, Fetch, Pull, etc: <https://help.github.com/articles/fetching-a-remote/>    
 
 1. CLONING
     - means
@@ -48,13 +49,6 @@
     - Open a Pull Request on GitHub.
     - Discuss, and optionally continue committing.
     - The project owner merges or closes the Pull Request.
-
-
-## Making a NEW version of your code
-> ????  
-
-1. XYZ....
-
 
 
 ## NODE and then other tools (ties in with webpack below)

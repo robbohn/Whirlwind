@@ -55,4 +55,3 @@
     - mine is at <https://robbohn.github.io/Whirlwind/>
     - note the cool automatic page generator capability - sample at <https://robbohn.github.io/tempest/>    
     
-

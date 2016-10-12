@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# An (opinionated) Whirlwind Tour of Current Web Development (V0.1.14b)...
-=======
-# An (opinionated) Whirlwind Tour of Current Web Development (V0.1.14a)
->>>>>>> 137c6086f8928cddbd3308cd1162f270f4aea316
+# An (opinionated) Whirlwind Tour of Current Web Development (V0.1.15)...
 
 > Where we work through the modern way to develop a basic web application  
 

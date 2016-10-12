@@ -24,8 +24,9 @@
 
 ## TYPESCRIPT 
 > Modernized JavaScript  
-> [more info](https://code.visualstudio.com/Docs/languages/typescript)   
-> [learn more](http://tutorialzine.com/2016/07/learn-typescript-in-30-minutes/)    
+> more info - <https://code.visualstudio.com/Docs/languages/typescript>   
+> learn more - <http://tutorialzine.com/2016/07/learn-typescript-in-30-minutes/>    
+> just released v2 - <http://www.typescriptlang.org/docs/release-notes/typescript-2.0.html>    
 
 1. Background
     - Open Source / from Microsoft / used by Google's Angular2
