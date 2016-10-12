@@ -34,14 +34,9 @@
 
 ## Other GITHUB Tasks
 > get code from others, contributing back   
+> Clone, Merge, Fetch, Pull, etc: <https://help.github.com/articles/fetching-a-remote/>    
 
-1. CLONING
-    - means
-1. PULL Request
-    - means
-1. FORKING
-    -  means GitHub will make a copy of a project that is entirely yours; it lives in your user’s namespace, and you can push to it.
-3. Contributing to a GitHub project, aka `The GitHub flow`    
+1. Contributing to a GitHub project, aka `The GitHub flow`    
     - Create a topic branch from master.
     - Make some commits to improve the project.
     - Push this branch to your GitHub project.
@@ -50,28 +45,17 @@
     - The project owner merges or closes the Pull Request.
 
 
-## Making a NEW version of your code
-> ????  
-
-1. XYZ....
-
-
-
 ## NODE and then other tools (ties in with webpack below)
 
-1. Discuss minify and bundling etc.
 1. Install NODEJS so NPM will be installed
+    - NPM - but now there's YARN (from facebook, google et al) - <http://ilikekillnerds.com/2016/10/yarn-best-thing-happen-javascript-since-npm/>  
+1. Discuss minify and bundling etc.
 1. Install/discuss other tools? gulp/grunt/babel/webpack
     - WebPack
         - WebPack Installation [info](https://github.com/webpack/webpack)      
         - project: `npm install webpack --save-dev`    
         - global: `npm install webpack -g`      
         - Usage [info](https://webpack.github.io/docs/tutorials/getting-started/)    
-
-
-## The over-abundance of tools
-
-1. [Javascript & tooling fatigue](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4) 
 
 
 ## Typings and tsd
