@@ -26,4 +26,6 @@
 
 --------------------
 
-(Stored at <https://github.com/robbohn/Whirlwind>)
+Stored at <https://github.com/robbohn/Whirlwind>
+
+End result viewable at <https://robbohn.github.io/Whirlwind/>
