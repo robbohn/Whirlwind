@@ -1,4 +1,4 @@
-# An (opinionated) Whirlwind Tour of Current Web Development (V0.1.16a)
+# An (opinionated) Whirlwind Tour of Current Web Development (V0.1.17)
 
 > Where we work through the modern way to develop a basic web application  
 
