@@ -6,20 +6,15 @@
 
 ## __Interlude:__ 
 > Typing not Copy/pasting - <https://daveceddia.com/the-lost-art-of-typing-shit-by-hand/>     
-> WTF [how-it-feels-to-learn-javascript-in-2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.sr7myqbkq)
-> The over-abundance of tools - [Javascript & tooling fatigue](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4)     
 
 ## [LESSON 1 - The Initial Version](https://github.com/robbohn/Whirlwind/blob/master/LESSON01/README.md)
 
 ## [LESSON 2 - Adding Logic](https://github.com/robbohn/Whirlwind/blob/master/LESSON02/README.md)
 
-## __Interlude:__ 
-> WTF [how-it-feels-to-learn-javascript-in-2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.sr7myqbkq)
-
 ## [LESSON 3 - Organizing Your Work](https://github.com/robbohn/Whirlwind/blob/master/LESSON03/README.md)
 
 ## __Interlude:__ 
-> The over-abundance of tools - [Javascript & tooling fatigue](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4)     
+> WTF [how-it-feels-to-learn-javascript-in-2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.sr7myqbkq)
 
 ## [LESSON 4A - Versioning](https://github.com/robbohn/Whirlwind/blob/master/LESSON04/README_A.md)
 
