@@ -10,7 +10,7 @@
 4. Internet Access (for downloading tools and later lessons)
 
 
-## What we don't need    
+## What we don't need (at least initially)    
 
 1. Web Server
 2. other stuff (server, database, etc.)
@@ -18,21 +18,16 @@
 > Discussion: Should tooling be separate from editing?
 
 
-## Discuss editors    
+## Editors    
 
 1. Simpler Editors: Notepad, SubLime/Atom/Brackets/Visual Studio Code/etc. 
 2. Big "Development Environments": Visual Studio, WebStorm, et al
 
+> VSC vs Brackets <https://www.slant.co/versus/52/5982/~brackets_vs_visual-studio-code>  
+> Brackets may have issues with typescript <http://stackoverflow.com/questions/24507965/how-to-write-typescript-and-coffeescript-in-brackets>  
+> VS Code and NODE and TypeScript/typings <https://code.visualstudio.com/docs/runtimes/nodejs>  
 
-## Install VS Code -or- ???Brackets???
-
-> VSC vs Brackets <https://www.slant.co/versus/52/5982/~brackets_vs_visual-studio-code>
-> Brackets may have issues with typescript <http://stackoverflow.com/questions/24507965/how-to-write-typescript-and-coffeescript-in-brackets>
-
-> VS Code and NODE and TypeScript/typings <https://code.visualstudio.com/docs/runtimes/nodejs>
-
-1. ([Download VS Code](http://code.visualstudio.com/))
-1. ([Download Brackets](????))
+3. VS Code [Download](http://code.visualstudio.com/)  
 
 
 ## Create folder and startup VS Code via one of the following:
@@ -42,7 +37,7 @@
     - right-click   
     - choose OPEN IN CODE   
             
-2. **In command shell/DOS:**  
+2. **In command shell:**  
 ```DOS
     mkdir newdirname     
     cd newdirname    
