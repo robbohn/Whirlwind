@@ -3,7 +3,7 @@
 > Where we create our first webpage
 
 ## HTML
-> HyperText Markup language - defines content and structure of web pages  
+> HyperText Markup Language - defines content and structure of web pages  
 > [more info](https://en.wikipedia.org/wiki/HTML)
 
 1. create index.html
@@ -18,11 +18,13 @@
     Plain Text<br/>
   </body>
 </html>
-```    
+```
+
+- VS Code shortcuts    
         - `CTL+SHIFT+V` switches between editing and previewing    
         - or use `Ctrl+K V` to show LIVE preview in a side window
 2. Discuss HTML5 ([info](https://en.wikipedia.org/wiki/HTML5))
-3. improve by adding doctype, lang, meta
+3. improve by adding HTML5 doctype, lang, meta
 ```HTML
 <!DOCTYPE html>
 <html lang="en">

@@ -1,20 +1,20 @@
-# An **OPINIONATED** Whirlwind Tour of Current Web Development (V0.1.24b)
+# An OPINIONATED Whirlwind Tour of Current Web Development (V0.1.24c)
 
 > Where we quickly work through a modern way to develop a basic web page from scratch  
 
 ## [LESSON 0 - Starting Up](https://github.com/robbohn/Whirlwind/blob/master/LESSON00/README.md)
 
 ## __Interlude:__ 
-> Typing not Copy/pasting - <https://daveceddia.com/the-lost-art-of-typing-shit-by-hand/>     
+> Typing not Copy/pasting <https://daveceddia.com/the-lost-art-of-typing-shit-by-hand/>     
 
 ## [LESSON 1 - The Initial Version](https://github.com/robbohn/Whirlwind/blob/master/LESSON01/README.md)
 
 ## [LESSON 2 - Adding Logic](https://github.com/robbohn/Whirlwind/blob/master/LESSON02/README.md)
 
-## [LESSON 3 - Organizing Your Work](https://github.com/robbohn/Whirlwind/blob/master/LESSON03/README.md)
-
 ## __Interlude:__ 
 > WTF [how-it-feels-to-learn-javascript-in-2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.sr7myqbkq)
+
+## [LESSON 3 - Organizing Your Work](https://github.com/robbohn/Whirlwind/blob/master/LESSON03/README.md)
 
 ## [LESSON 4A - Versioning](https://github.com/robbohn/Whirlwind/blob/master/LESSON04/README_A.md)
 

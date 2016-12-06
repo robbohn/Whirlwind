@@ -27,20 +27,21 @@
 > Brackets may have issues with typescript <http://stackoverflow.com/questions/24507965/how-to-write-typescript-and-coffeescript-in-brackets>  
 > VS Code and NODE and TypeScript/typings <https://code.visualstudio.com/docs/runtimes/nodejs>  
 
-3. VS Code [Download](http://code.visualstudio.com/)  
+- VS Code [Download](http://code.visualstudio.com/)  
 
 
 ## Create folder and startup VS Code via one of the following:
 
-1. **In Windows Explorer**
-    - create a new folder   
-    - right-click   
-    - choose OPEN IN CODE   
-            
-2. **In command shell:**  
+1. **In command shell:**  
 ```DOS
     mkdir newdirname     
     cd newdirname    
     code .
 ```   
+
+2. **In Windows Explorer**
+    - create a new folder   
+    - right-click   
+    - choose OPEN IN CODE   
+            
 
