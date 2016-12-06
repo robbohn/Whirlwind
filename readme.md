@@ -1,6 +1,6 @@
-# An (opinionated) Whirlwind Tour of Current Web Development (V0.1.22)
+# An (opinionated) Whirlwind Tour of Current Web Development (V0.1.24)
 
-> Where we work through the modern way to develop a basic web application  
+> Where we quickly work through a modern way to develop a basic web page from scratch  
 
 ## [LESSON 0 - Starting Up](https://github.com/robbohn/Whirlwind/blob/master/LESSON00/README.md)
 
