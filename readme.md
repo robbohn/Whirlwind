@@ -1,4 +1,4 @@
-# An OPINIONATED Whirlwind Tour of Current Web Development (V0.1.24e)
+# An OPINIONATED Whirlwind Tour of Current Web Development (V0.1.24f)  
 
 > Where we quickly work through a modern way to develop a basic web page from scratch  
 
