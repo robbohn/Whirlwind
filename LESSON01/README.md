@@ -115,13 +115,14 @@ p {
 #ReplaceThis {
     background-color: red;
 }
-```     
-    - change the HTML file's style code in `<head>` to be:   
+```   
+
+- change the HTML file's style code in `<head>` to be:   
+
 ```html
     <link rel="stylesheet" href="./main.css">
-```
+```  
 
-    - `Shift+Alt+F` does not seem to format CSS file?
-4. Preview via `CTL+SHIFT+V`
+- Preview via `CTL+SHIFT+V`
 
 
