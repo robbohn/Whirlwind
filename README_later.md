@@ -45,7 +45,7 @@
     - The project owner merges or closes the Pull Request.
 
 
-## NODE and then other tools (ties in with webpack below)
+## NODE and NPM and then other tools (ties in with webpack below)
 
 1. Install NODEJS so NPM will be installed
     - NPM - but now there's YARN (from facebook, google et al) - <http://ilikekillnerds.com/2016/10/yarn-best-thing-happen-javascript-since-npm/>  

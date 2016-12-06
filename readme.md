@@ -6,6 +6,7 @@
 
 ## __Interlude:__ 
 > Typing not Copy/pasting - <https://daveceddia.com/the-lost-art-of-typing-shit-by-hand/>     
+> WTF [how-it-feels-to-learn-javascript-in-2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.sr7myqbkq)
 > The over-abundance of tools - [Javascript & tooling fatigue](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4)     
 
 ## [LESSON 1 - The Initial Version](https://github.com/robbohn/Whirlwind/blob/master/LESSON01/README.md)
