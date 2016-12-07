@@ -1,5 +1,5 @@
  {
-  "compilerOptions": 
+  "compilerOptions":  
   { 
     "target": "es5", 
     "module": "commonjs", 
@@ -7,4 +7,4 @@
     // "inlineSourceMap": true      /* possible change!!!! - makes a single map instead of map per file & dir */
   },                             /* note this change (comma) !!!! */
   "exclude": ["node_modules"]    /* note this change!!!! */
-} 
+}

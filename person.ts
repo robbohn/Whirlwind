@@ -1,6 +1,7 @@
-//person.ts
+// person.ts
 
 enum Gender { Male, Female };
+
 // see below for example enum where values must be E/W/N/S and not integers - https://blog.rsuter.com/how-to-implement-an-enum-with-string-values-in-typescript/
 enum Direction { East = <any>"E", West = <any>"W", North = <any>"N", South = <any>"S" }
 

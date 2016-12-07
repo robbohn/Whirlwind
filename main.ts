@@ -1,7 +1,9 @@
-/* Run   tsc -w   in a command line to auto-compile typescript */
+/* Run   tsc  in a command line to compile typescript */
+
+/* !!! !!! */
 
 function greetings(name: string, age: number) {
-    return "Hello there, " + name;
+    return "Hello..  there " + name;
 }
 
 var user: string = "John!";
